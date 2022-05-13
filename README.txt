@@ -1,0 +1,1 @@
+This project is a basic intro to HTML, CSS will be added at later stages.
