@@ -1,0 +1,48 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+  font-weight: bold;
+  color: #f99357;
+}
+
+/* Decendant combinator */
+ul .members{
+  color: rgb(246, 116, 30);
+}
+
+/* Type/element selector */
+h1 {
+  background-color: #f99357;
+  color: aqua;
+}
+
+li.homepage {
+  color: blue;
+  text-align: center;
+}
+
+/* Chaining selector */
+h1.homepage {
+  color: blueviolet;
+  font-size: 60px;
+  text-align: center;
+}
+
+/* Group selector */
+p,
+h2 {
+  color: teal;
+}
+
+/* Class selctor */
+.imperative {
+  color: red;
+}
+
+/* ID selector */
+#page1 {
+  text-align: center;
+  color: tomato;
+}
