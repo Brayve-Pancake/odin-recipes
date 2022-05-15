@@ -19,8 +19,10 @@ h1 {
 }
 
 li.homepage {
-  color: blue;
+  color: red;
   text-align: center;
+  width: 150px;
+  margin:auto;
 }
 
 /* Chaining selector */
